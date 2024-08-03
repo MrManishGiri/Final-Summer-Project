@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MenuEditingActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:backgroundTint="@color/darkblue"
+        android:background="@drawable/cardview"
+        >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_editing"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/dancing_script"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/cardview">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:contentDescription="@string/image_of_food_item"/>
+
+
+        <EditText
+            android:id="@+id/foodNameEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/imageButton"
+            android:background="@drawable/cardview"
+            android:ems="10"
+            android:hint="@string/enter_the_food_name"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:drawableStart="@drawable/baseline_food_bank_24"/>
+
+        <EditText
+            android:id="@+id/priceEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/foodNameEditText"
+            android:background="@drawable/cardview"
+            android:ems="10"
+            android:hint="@string/price_of_the_item"
+            android:inputType="text|numberDecimal"
+            android:padding="5dp"
+            android:drawableStart="@drawable/baseline_currency_rupee_24"/>
+
+
+        <Button
+            android:id="@+id/addItemButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_item"
+            android:backgroundTint="@color/green"
+            android:layout_below="@+id/priceEditText"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/cardview">
+
+
+
+        <EditText
+            android:id="@+id/foodNameDelEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cardview"
+            android:ems="10"
+            android:hint="@string/enter_the_food_name"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:drawableStart="@drawable/baseline_food_bank_24"/>
+
+
+
+        <Button
+            android:id="@+id/removeItemButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remove_item"
+            android:backgroundTint="@color/red"
+            android:layout_below="@+id/foodNameDelEditText"
+            android:layout_centerHorizontal="true"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/removeItemButton"/>
+    </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>

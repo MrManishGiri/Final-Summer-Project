@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navy">#1C1678</color>
+    <color name="fadeBlue">#1147D1</color>
+    <color name="lightBlue">#1877F2</color>
+    <color name="gray">#EADBC8</color>
+    <color name="purple">#2C1872</color>
+    <color name="lightblue">#E0F4FF</color>
+    <color name="darkblue">#FFE8C8</color>
+    <color name="orange">#FDA831</color>
+    <color name="paleyellow">#FEE8B0</color>
+    <color name="yellow">#ffbd03</color>
+    <color name="green">#33b249</color>
+    <color name="creamwhite">#52555A</color>
+    <color name="marine">#141921</color>
+    <color name="red">#ED0800</color>
+
+    <color name="primaryRedHex">#DC3535</color>
+
+    <color name="primaryOrangeHex">#D17842</color>
+
+    <color name="primaryBlackHex">#0C0F14</color>
+
+    <color name="primaryDarkGreyHex">#141921</color>
+
+    <color name="secondaryDarkGreyHex">#21262E</color>
+
+    <color name="primaryGreyHex">#252A32</color>
+
+    <color name="secondaryGreyHex">#252A32</color>
+
+    <color name="primaryLightGreyHex">#52555A</color>
+
+    <color name="secondaryLightGreyHex">#AEAEAE</color>
+
+    <color name="primaryWhiteHex">#FFFFFF</color>
+
+    <color name="primaryBlackRGBA">#0C0F1480</color>
+
+    <color name="secondaryBlackRGBA">#000000B3</color>
+
+</resources>

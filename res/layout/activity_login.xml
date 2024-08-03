@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/darkblue">
+
+    <TextView
+    android:id="@+id/titleTextView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:fontFamily="@font/dancing_script"
+    android:text="@string/happy_canteen"
+    android:layout_marginTop="70dp"
+    android:textColor="@color/yellow"
+    android:textSize="70sp"
+    android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/cardview">
+
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/chef" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/logoImageView"
+            android:background="@drawable/cardview"
+            android:ems="10"
+            android:hint="@string/email_provided_by_college"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/baseline_email_24"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/emailEditText"
+            android:background="@drawable/cardview"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:drawableLeft="@drawable/baseline_lock_outline_24"/>
+
+
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/green"
+            android:layout_below="@+id/passwordEditText"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:id="@+id/signUpText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/not_register_yet_signup"
+            android:textSize="17sp"
+            android:layout_margin="5dp"
+            android:layout_below="@+id/loginButton"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/adminText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signUpText"
+            android:text="@string/login_as_admin"
+            android:layout_margin="5dp"
+            android:textColor="@color/purple"
+            android:textSize="16sp"
+            android:textAlignment="center"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

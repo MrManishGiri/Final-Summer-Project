@@ -1,0 +1,188 @@
+<resources>
+    <string name="app_name">Happy Canteen</string>
+    <string name="password">Password</string>
+    <string name="user_id">User ID</string>
+    <string name="email_provided_by_college">Email provided by College</string>
+    <string name="login_as_admin">Login as Admin</string>
+    <string name="happy_canteen">Happy Canteen</string>
+    <string name="welcome_admin">Welcome Admin </string>
+    <string name="please_enter_your_credentials">Please Enter Your Credentials</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="full_name">Full_Name</string>
+    <string name="enter_the_batch_year">Enter the Batch year</string>
+    <string name="already_a_user_login">Already a User, Login!</string>
+    <string name="signup">SignUp</string>
+    <string name="enter_your_faculty">Enter Your Faculty</string>
+    <string name="signup_portal">SignUp Portal</string>
+    <string name="canteen_logo">canteen logo</string>
+
+    <string-array name="role_array">
+        <item>Admin</item>
+        <item>Staff</item>
+        <item>User</item>
+    </string-array>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="not_register_yet_signup">Not register yet, signUp!</string>
+    <string name="enter_your_user_id">Enter your User ID</string>
+    <string name="login">LogIn</string>
+    <string name="change_image">Change Image</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="manish_giri">Manish Giri</string>
+    <string name="admin_image">Admin Image</string>
+    <string name="logout">Logout</string>
+    <string name="menu_edit_button">Menu Edit Button</string>
+    <string name="customer_operation_button">Customer operation Button</string>
+    <string name="menu_lookup">Menu_Lookup</string>
+    <string name="customer_edit_button">Customer Edit Button</string>
+    <string name="menu_editing">Menu Editing</string>
+    <string name="enter_the_food_name">Enter the Food Name</string>
+    <string name="price_of_the_item">Price of the Item</string>
+    <string name="add_item">Add Item</string>
+    <string name="order_lookup">Order_Lookup</string>
+    <string name="remove_item">Remove Item</string>
+    <string name="image_of_food_item">Image of food item</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_email_address">Your Email Address</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="menu_items">Menu Items</string>
+    <string name="orderItem">Order</string>
+    <string name="purchased">Purchased:</string>
+    <string name="product_name">Product Name</string>
+    <string name="customer_profile_removing_portal">Customer Profile Removing Portal</string>
+    <string name="enter_customer_name">Enter Customer Name</string>
+    <string name="enter_customer_phone_number">Enter Customer Phone Number</string>
+    <string name="remove_customer_account">Remove Customer Account</string>
+    <string name="ordered_items">Ordered Items</string>
+    <string name="go_to_ordered_list">Go To Ordered List</string>
+    <string name="customer_you_want_to_remove">Customer you want to remove</string>
+    <string name="email_of_the_customer">Email of the Customer</string>
+    <string name="phone_number_of_the_customer">Phone Number of the Customer</string>
+    <string name="delete_order">Delete Order</string>
+    <string name="search_menu_items">Search Menu Items</string>
+    <string name="customer_image">Customer Image</string>
+    <string name="food_image">food image</string>
+    <string name="other_functions">Other Functions</string>
+    <string name="status">Status</string>
+    <string name="order_number">Order Number :-</string>
+    <string name="phone">Phone :-</string>
+    <string name="price">Price :-</string>
+    <string name="name_of_items">Name of Items :-</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="name_of_food_item">Name of food item</string>
+    <string name="delete">Delete</string>
+    <string name="phonenumber">Phone-Number</string>
+    <string name="click_image_to_edit_menu">Click Image To Edit Menu</string>
+    <string name="find_the_best_nfood_for_you">Find the best \nfood for you</string>
+    <string name="find_your_food">Find your food...</string>
+    <string name="search_icon">search_icon</string>
+    <string name="all_items">All Items</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="order_button">Order Button</string>
+    <string name="cancel_button">Cancel Button</string>
+    <string name="rs">Rs.</string>
+    <string name="this_is_order_remove_button">This is order remove button</string>
+    <string name="this_is_order_button">This is order button</string>
+    <string name="this_is_the_image_of_the_food_item">This is the image of the food item</string>
+    <string name="cart">Cart</string>
+    <string name="favorite">favorite</string>
+    <string name="notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="this_is_favorite_button">This is favorite button</string>
+    <string name="profile_image_button">Profile image button</string>
+    <string name="find_the_best_n_food_for_you">Find the best \n food for you</string>
+</resources>

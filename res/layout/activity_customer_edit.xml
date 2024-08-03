@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue"
+    tools:context=".activity.CustomerEditActivity">
+
+    <TextView
+        android:id="@+id/profileTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:fontFamily="@font/dancing_script"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"
+        android:text="@string/customer_profile_removing_portal"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/cardview">
+
+
+        <EditText
+            android:id="@+id/numberEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/cardview"
+            android:ems="10"
+            android:hint="@string/phone_number_of_the_customer"
+            android:inputType="phone|number"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/emailDeleteEditText"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@id/numberEditText"
+            android:background="@drawable/cardview"
+            android:ems="10"
+            android:hint="@string/email_of_the_customer"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+
+        <Button
+            android:id="@+id/removeCustomerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/remove_customer_account"
+            android:layout_below="@+id/emailDeleteEditText"
+            android:backgroundTint="@color/red"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
